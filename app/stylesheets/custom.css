@@ -1,0 +1,29 @@
+
+md-toast.md-success-toast-theme .md-toast-content {
+    border:none;
+    border-radius:0px;
+    border-left:10px solid #77dd77;
+    background-color: #cbfcc1;
+    color: #7b7b7b;
+}
+md-toast.md-error-toast-theme .md-toast-content {
+    border:none;
+    border-radius:0px;
+    border-left:10px solid #ff6666;
+    background-color: #fccdc1;
+    color: #7b7b7b;
+}
+md-content{
+    background-color: rgb(255,255,255);
+}
+.md-center {
+    left: 100%;
+    transform: translate3d(-50%, 0, 0);
+    padding-top: 20px;
+}
+.md-toast-content {
+    border: 1px solid grey;
+}
+.md-toast-text{
+    text-align: center;
+}

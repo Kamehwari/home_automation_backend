@@ -1,0 +1,56 @@
+<div style="background-color: lightblue">
+        <h2 class="text-center text-white pt-5" style="text-align: center; font-weight: bold">Home Automation</h2>
+            <div id="login">
+                    <div class="container">
+                        <div id="login-row" class="row justify-content-center align-items-center">
+                            <div id="login-column" class="col-md-6">
+                                <div id="login-box" class="col-md-12">
+                                    <form id="login-form" class="form" ng-submit="registration()" >
+                                        <h3 class="text-center text-info" style="font-weight: bold">Registration</h3>
+                                        <div class="form-group">
+                                            <label for="first_name" class="text-info">First Name:</label><br>
+                                            <input type="text" name="first_name" ng-model="first_name" id="first_name" class="form-control" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="last_name" class="text-info">Last Name:</label><br>
+                                            <input type="text" name="last_name" ng-model="last_name" id="last_name" class="form-control" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="username" class="text-info">Email:</label><br>
+                                            <input type="text" name="username" ng-model="email" id="email" class="form-control" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password" class="text-info">Password:</label><br>
+                                            <input type="password" name="password"  ng-model="password" id="password" class="form-control" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" name="submit" class="btn btn-info btn-md" value="Register Now">
+                                        </div>
+                                        <div id="register-link" class="text-right">
+                                            <a href="#!/login" class="text-info" style="font-weight: bold">Already Registered?</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    
+    
+    
+    <style>
+      #login .container #login-row #login-column #login-box {
+      margin-top: 12px;
+      max-width: 600px;
+      height: 520px;
+      border: 1px solid #9C9C9C;
+      background-color: #EAEAEA;
+    }
+    #login .container #login-row #login-column #login-box #login-form {
+      padding: 30px;
+    }
+    #login .container #login-row #login-column #login-box #login-form #register-link {
+      margin-top: -60px;
+    }
+        </style>
