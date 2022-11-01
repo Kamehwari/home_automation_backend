@@ -19,7 +19,7 @@
     "cors": "^2.8.5",
     "errorhandler": "^1.5.1",
     "express": "^4.17.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-typescript": "^3.2.2",
     "mongoose": "^5.9.7"
   },
