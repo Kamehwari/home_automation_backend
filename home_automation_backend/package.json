@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
-    "nightwatch": "^0.9.16",
+    "nightwatch": "^2.6.16",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "typescript": "^3.8.3"
